@@ -6,6 +6,7 @@ import {
   CardFooter,
   CardHeader
  } from "../ui/card";
+import { BackButton } from "./Backbutton";
  import { Header } from "./Header";
 import { Social } from "./Social";
 
@@ -36,6 +37,12 @@ export const CardWrapper = ({
           <Social />
         </CardFooter>
       )}
+      <CardFooter>
+        <BackButton 
+          label={backButtonLabel}
+          href={backButtonHref}
+        />
+      </CardFooter>
     </CardContent>
    </Card>
   )
