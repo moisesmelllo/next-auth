@@ -13,7 +13,7 @@ export const Social = () => {
         variant='outline'
         onClick={() => {}}
       >
-        <FcGoogle />
+        <FcGoogle className="h-5 w-5"/>
       </Button>
       <Button
         size='lg'
@@ -21,7 +21,7 @@ export const Social = () => {
         variant='outline'
         onClick={() => {}}
       >
-        <FaGithub />
+        <FaGithub className="h-5 w-5"/>
       </Button>
     </div>
   )
