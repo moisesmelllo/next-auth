@@ -1,0 +1,8 @@
+{
+  "workbench.view.alwaysShowHeaderActions": false,
+  "workbench.editor.enablePreviewFromCodeNavigation": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.editor.restoreViewState": true,
+  "accessibility.hideAccessibleView": false,
+  "editor.fontSize": 14
+}
